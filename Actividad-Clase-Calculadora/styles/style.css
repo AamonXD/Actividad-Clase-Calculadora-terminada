@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e8e8e8;
+}
+
+.titulos {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.container-calculadora {
+    background-color: lightgray;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.container-calculadora input {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.638);
+}
+
+.container-calculadora input:hover {
+    width: 205px;
+    height: 32px;
+    background-color: #e8e8e8;
+    border: 1px dashed black;
+}
+
+.container-calculadora #total1 {
+    width: 340px;
+    height: 45px;
+    background-color: rgba(102, 172, 102, 0.823);
+    border: inherit;
+}
+
+.container-cuerpo {
+    margin-top: 25% auto;
+}
+
+.container-calculadora form select {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.638);
+}
+
+.container-calculadora form select:hover {
+    width: 205px;
+    height: 32px;
+    background-color: #e8e8e8;
+    border: 1px dashed black;
+}
+
+.container-calculadora form button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px auto;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(51, 51, 51, 0.912);
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.638);
+}
+
+.container-calculadora form button:active {
+    width: 90px;
+    height: 28px;
+}
+
+.footer1 {
+    background-color: rgba(33, 33, 33, 0.912);
+    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: inherit;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+}
+
+.footer1 .foot-names {
+    position: relative;
+    top: 60px;
+}
+
+.footer1 .foot-names h3 {
+    color: rgb(138, 138, 138);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer1 .foot-accounts {
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.footer1 .foot-accounts p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: rgba(138, 138, 138, 0.118);
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 20px;
+}
+
+.footer1 .foot-accounts a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.footer1 .foot-accounts p:hover {
+    background-color: rgb(138, 138, 138);
+    padding: 8px;
+}
+
+.footer1 .foot-accounts a:hover {
+    color: rgba(33, 33, 33, 0.912);
+}
+
+.footer1 .foot-Credits {
+    position: relative;
+    left: 500px;
+    top: 115px;
+}
+
+.footer1 .foot-Credits p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 7px;
+    background-color: rgba(138, 138, 138, 0.118);
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 20px;
+}
+
+.footer1 .foot-Credits a {
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.footer1 .foot-Credits p:hover {
+    background-color: rgb(138, 138, 138);
+    padding: 8px;
+}
+
+.footer1 .foot-Credits a:hover {
+    color: rgba(33, 33, 33, 0.912);
+}

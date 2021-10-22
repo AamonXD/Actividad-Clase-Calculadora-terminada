@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="container-cuerpo">
+        <div class="titulos">
+            <h2>Actividad-clase_04-21/10/2021</h2>
+            <h1>Calculadora</h1>
+        </div>
+        <div class="container-calculadora">
+            <form name="calculadora" id="formCal">
+                <input type="number" id="total1" readonly name="resultado">
+                <br>
+                <input type="number" name="n1" id="n1" placeholder="Primer Numero">
+                <br>
+                <input type="number" name="n2" id="n2" placeholder="Segundo Numero">
+                <br>
+                <select name="select" id="select1">
+                    <option value="">Elegir operación a realizar</option>
+                    <option value="Suma">Suma</option>
+                    <option value="Resta">Resta</option>
+                    <option value="Multiplicacion">Multiplicacion</option>
+                    <option value="Division">Division</option>
+                    <option value="Encontrar-Modulo">Encontrar-Modulo</option>
+                </select>
+                <br>
+                <button type="submit" id="btn-calcular">Calcular</button>
+                <br>
+                <button type="reset" id="btn-limpiar">Limpiar</button>
+            </form>
+        </div>
+        <script src="./script/script.js"></script>
+    </div>
+</body>
+<footer class="footer1">
+    <div class="foot-names">
+        <h3>© David Emanuel Martinez</h3>
+        <h3>© Michele Meneses</h3>
+        <h3>© Daniel Losada</h3>
+    </div>
+    <div class="foot-accounts">
+        <p><a href="">github-David ►</a></p>
+        <p><a href="">github-Michele ►</a></p>
+        <p><a href="">github-Daniel ►</a></p>
+    </div>
+    <div class="foot-Credits">
+        <p><a href="">© Academia Geek ►</a></p>
+    </div>
+</footer>
+
+</html>
